@@ -1,0 +1,86 @@
+<!doctype css> 
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #A3E3D8;
+  height: 100%;
+}
+
+h1 {
+  font-family: Avenir, sans serif;
+  color: #313333;
+  text-align: center;
+}
+
+h2 {
+  font-family: Avenir, sans serif;
+  color: #313333;
+  text-align: center;
+}
+
+p {
+  font-family: Avenir, sans serif;
+  color: #313333;
+}
+
+footer {
+  float: bottom
+}
+
+ul#menu {
+  position: center;
+  top: 0;
+  text-align: center;
+}
+
+ul#menu li {
+  display: inline;
+}
+
+ul#menu li a {
+  background-color: #005757;
+  color: white;
+  font-family: Raleway, sans serif;
+  padding: 10px 40px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+ul#menu li#button a {
+  background-color: white;
+  color: #313333;
+  font-family: Montserrat, sans serif;
+  padding: 15px 25px;
+  text-decoration: bold;
+  border-width: thick;
+  border-style: solid;
+  border-color: #005757;
+}
+
+ul#menu li a:hover {
+  background-color: #f55897;
+}
+
+/*Beginning of code for About page*/
+
+p#bio { /*Description on About page*/
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 280px;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+img#selfie{
+  /*profile photo on About page*/
+  padding: 0px 20px;
+  float: left;
+  margin-left: 280px;
+}
+
