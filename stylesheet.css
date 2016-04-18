@@ -1,5 +1,10 @@
 <!doctype css> 
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-color: #A3E3D8;
   height: 100%;
@@ -20,7 +25,6 @@ h2 {
 p {
   font-family: Avenir, sans serif;
   color: #313333;
-  text-align: center;
 }
 
 footer {
@@ -64,18 +68,19 @@ ul#menu li a:hover {
 /*Beginning of code for About page*/
 
 p#bio { /*Description on About page*/
-  margin-left: 650px;
-  margin-right: 300px;
   font-family: Avenir, sans serif;
   color: #313333;
-  text-align: left;
-  float: right;
-  width: 300px;
+  padding: 20px;
+  margin-right: 280px;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 img#selfie{
   /*profile photo on About page*/
+  padding: 0px 20px;
+  float: left;
   margin-left: 280px;
-  padding: 20px;
 }
 
