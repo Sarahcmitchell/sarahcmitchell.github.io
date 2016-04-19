@@ -136,20 +136,20 @@ img#photography{
 
 /*Beginning of Contact page*/
 img#instagram{
-  /*link to writing page*/
+  /*link to insta*/
   position: center;
   padding: 10px;
-  margin-left: 220px;
+  margin-left: 225px;
 }
 
 img#email{
-  /*link to design page*/
+  /*link to emaile*/
   position: center;
   padding: 10px;
 }
 
 img#linkedin{
-  /*link to photography page*/
+  /*link to linkedin*/
   position: center;
   padding: 10px;
 }
