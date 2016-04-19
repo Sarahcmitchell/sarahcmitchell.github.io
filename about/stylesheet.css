@@ -1,8 +1,12 @@
 <!doctype css> 
 
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
+}
+
+header {
+  padding: 10px;
 }
 
 body {
@@ -28,7 +32,8 @@ p {
 }
 
 footer {
-  float: bottom
+  float: bottom;
+  height: 40px;
 }
 
 ul#menu {
@@ -71,7 +76,11 @@ p#bio { /*Description on About page*/
   font-family: Avenir, sans serif;
   color: #313333;
   padding: 20px;
-  margin-right: 280px;
+  margin-right: 300px;
+  margin-left: 650px;
+  height: 300px;
+  width: 300px;
+  background-color: white;
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
   page-break-inside: avoid;
@@ -81,6 +90,76 @@ img#selfie{
   /*profile photo on About page*/
   padding: 0px 20px;
   float: left;
-  margin-left: 280px;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: white;
 }
 
+img#leadership{
+  /*link to leadership page*/
+  position: center;
+  padding: 10px;
+  margin-left: 120px;
+}
+
+img#education{
+  /*link to education page*/
+  position: center;
+  padding: 10px;
+}
+
+img#experience{
+  /*link to experience page*/
+  position: center;
+  padding: 10px;
+}
+
+/*Beginning of Work page*/
+img#writing{
+  /*link to writing page*/
+  position: center;
+  padding: 10px;
+  margin-left: 286px;
+}
+
+img#design{
+  /*link to design page*/
+  position: center;
+  padding: 10px;
+}
+
+img#photography{
+  /*link to photography page*/
+  position: center;
+  padding: 10px;
+}
+
+/*Beginning of Contact page*/
+img#instagram{
+  position: center;
+  padding: 10px;
+  margin-left: 225px;
+}
+
+img#email{
+  position: center;
+  padding: 10px;
+}
+
+img#linkedin{
+  position: center;
+  padding: 10px;
+}
+
+/*Beginning of Contact page*/
+img#download{
+  position: center;
+  padding: 10px;
+  margin-left: 455px;
+}
+
+img#resume{
+  position: center;
+  padding: 10px;
+  margin-left: 220px;
+}
