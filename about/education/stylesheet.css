@@ -185,6 +185,20 @@ img#writing{
   margin-left: 286px;
 }
 
+p#sample{
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 400px;
+  margin-left: 400px;
+  height: 100px;
+  width: 420px;
+  background-color: white;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
 img#design{
   /*link to design page*/
   position: center;
