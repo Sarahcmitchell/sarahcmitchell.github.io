@@ -15,16 +15,21 @@ body {
 }
 
 h1 {
-  font-family: Avenir, sans serif;
+  font-family: Montserrat, sans serif;
   color: #313333;
   text-align: center;
 }
 
 h2 {
-  font-family: Avenir, sans serif;
+  font-family: Raleway, sans serif;
   color: #313333;
   text-align: center;
 }
+
+h3{  
+  font-family: Montserrat, sans serif;
+  color: #313333;
+  text-align: center;}
 
 p {
   font-family: Avenir, sans serif;
@@ -108,10 +113,68 @@ img#education{
   padding: 10px;
 }
 
+/*beginning of education page*/
+p#msu {
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 300px;
+  margin-left: 500px;
+  height: 350px;
+  width: 450px;
+  background-color: white;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+img#spartan{
+  padding: 0px 20px;
+  float: left;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: white;
+}
+
 img#experience{
   /*link to experience page*/
   position: center;
   padding: 10px;
+}
+p#wrac {
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 300px;
+  margin-left: 500px;
+  height: 150px;
+  width: 450px;
+  background-color: white;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+p#library {
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 300px;
+  margin-left: 500px;
+  height: 150px;
+  width: 450px;
+  background-color: white;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+img#waterford{
+  padding: 0px 20px;
+  float: left;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: white;
 }
 
 /*Beginning of Work page*/
@@ -120,6 +183,20 @@ img#writing{
   position: center;
   padding: 10px;
   margin-left: 286px;
+}
+
+p#sample{
+  font-family: Avenir, sans serif;
+  color: #313333;
+  padding: 20px;
+  margin-right: 400px;
+  margin-left: 400px;
+  height: 100px;
+  width: 420px;
+  background-color: white;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 img#design{
@@ -151,7 +228,7 @@ img#linkedin{
   padding: 10px;
 }
 
-/*Beginning of Contact page*/
+/*Beginning of Resume page*/
 img#download{
   position: center;
   padding: 10px;
