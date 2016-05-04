@@ -81,8 +81,7 @@ p#bio { /*Description on About page*/
   font-family: Avenir, sans serif;
   color: #313333;
   padding: 20px;
-  margin-right: 300px;
-  margin-left: 650px;
+  margin-left: 52%;
   height: 300px;
   width: 300px;
   background-color: white;
@@ -93,9 +92,9 @@ p#bio { /*Description on About page*/
 
 img#selfie{
   /*profile photo on About page*/
-  padding: 0px 20px;
+  padding: 20px 20px 20px 20px;
   float: left;
-  margin-left: 300px;
+  margin-left: 23%;
   padding: 20px;
   background-color: white;
 }
